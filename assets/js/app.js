@@ -24,7 +24,7 @@ initapp=()=>{
     app.innerHTML=`
         <header  id="top">
             <div class='brand'><a href='index.html'>
-            Vinicius Araujo
+            flip
             </a></div>
             <div class='menu'>
             <button onclick='menutoggleMenu()' class='btn-menu'>
@@ -43,25 +43,12 @@ initapp=()=>{
                         <li>
                             <a href='#portfolio'>Galeria</a>
                         </li>
-                       
-                        <!--<li>
-                            <a href='#about'>Sobre</a>
-                        </li>-->
+                     
                         <li>
-                            <a href='#contact'>Enviar mensagem</a>
+                            <a href='#contact'>Fale Comigo</a>
                         </li>
-                        <li>
-                            <a class='btn primary convert-btn' href="">
-                                <span>+55 (12) 98102-1517</span>
-                                <i class="fa-brands fa-whatsapp"></i>
-                            </a>
-                        </li>
-                        <!-- <li>
-                            <a class='btn inline' href="https://github.com/harmonydigital/harmonywebsites" target='_blank'>
-                                <span>v1.0</span>
-                                <i class="fa-brands fa-github"></i>
-                            </a>
-                        </li>-->
+                        
+                        
                     </ul>
                 </nav>
             </div>
@@ -70,9 +57,9 @@ initapp=()=>{
         <main>
     <div class='display'>
        <div class='content-text'>
-          <span class='title'>Ux Designer</span>
-          <h1>and Front-end developer.</h1>
-          <h2>Inspire</br>2023</h2>
+          <span class='title'>Developer</span>
+          <h1>UI Designer and Front-end </h1>
+          <h2>Galeria Inspire-se</br>2023</h2>
           <a class='btn-down' href='#about'>
           <i class="fa-solid fa-chevron-down"></i>
           </a>
